@@ -10,7 +10,7 @@ create a new page in you're WonderCMS website and add this to you're theme php f
 	<?php if (wCMS::$_currentPage == 'the name of the page'): ?>
 		<div class="container">
 			<div class="col-xs-12 col-sm-12">
-				<div class="whiteBackground grayFont rounded5">
+				<div class="whiteBackground grayFont padding20 rounded5">
 					<?php photo_gallery(); ?>
 				</div>
 			</div>
